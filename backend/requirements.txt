@@ -3,3 +3,4 @@ sqlalchemy
 pandas
 uvicorn
 dotenv
+psycopg2
