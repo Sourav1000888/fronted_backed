@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 import os
 
-
+load_dotenv()
 
 @asynccontextmanager
 async def life_spaning(app : FastAPI):
